@@ -26,8 +26,8 @@ local new = Nexus.new -- Importing constructor function.
 local Component = new "Component" { Name = "Component" } -- Construct new Component
 
 function Component:OnNexusInit() -- When Nexus being initialized: Use this for creating events, constants, enums, e.t.c
-	-- self.Name = component_info.Name
-	-- self._maid = Maid.new()
+   -- self.Name = component_info.Name
+   -- self._maid = Maid.new()
 end
 
 function Component:OnNexusStart() -- When Nexus being started: Use this for describing game logic, math operations, e.t.c
@@ -35,8 +35,8 @@ function Component:OnNexusStart() -- When Nexus being started: Use this for desc
 end
 
 function Component:OnDestroy() -- When Nexus being stopped (exclusive for client-side): Add tasks to self._maid for terminating memory leaks
-	self._maid:DoCleaning()
-	self = nil
+   self._maid:DoCleaning()
+   self = nil
 end
 
 return Component
