@@ -1,5 +1,5 @@
 # Nexus
-This is a module-based framework created by Carnasuss, and used for game organization and management.
+This is a module-based framework created by me, and used for game organization and management.
 It does support one shared API which can be used for managing, sharing, controlling different memory locations.
 Note: This is a experimental project.
 ## Latest Version
