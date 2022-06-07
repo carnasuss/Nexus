@@ -63,6 +63,10 @@ You can access other component (only on the same script side) using:
 ```lua
 Nexus.GetComponent("Name")
 ```
+Getting remote event/function that was created with "new" is possible with:
+```lua
+Nexus.GetRemote("Name")
+```
 Last feature added in Nexus is package management:
 ```lua
 Nexus.GetPackage("Maid")
