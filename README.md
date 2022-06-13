@@ -16,6 +16,7 @@ Nexus.Start(Components)
 Component is a structure, which made for serving some purpose (basically a script):
 ```lua
 local Nexus = require(game.ReplicatedStorage.Nexus) -- Require framework.
+local Services = require(Nexus.GetPackage("ServiceUtil"))
 local Maid = require(Nexus.GetPackage("Maid"))
 local Promise = require(Nexus.GetPackage("Promise"))
 
